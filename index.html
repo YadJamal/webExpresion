@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Khao Piyo Restaurant</title>
+<title>Eat Healthy Live Healthy</title>
 <style>
     body {
-        font-family: 'Verdana', sans-serif;
+        font-family: Arial, sans-serif;
+        text-align: center;
         margin: 0;
         padding: 0;
-        text-align: center;
         background-color: #ffffff;
     }
 
     h1 {
-        color: #000;
+        color: maroon;
         font-size: 36px;
         margin-top: 20px;
         margin-bottom: 10px;
@@ -35,7 +35,7 @@
 
     ul {
         text-align: left;
-        
+        list-style-type: none;
         padding: 0;
         margin-right: 20px;
         font-size: 16px;
@@ -53,19 +53,20 @@
     }
 
     table th, table td {
-        border: 1px solid #000;
+        border: 2px solid blue;
         padding: 5px 10px;
         text-align: left;
     }
 
     table caption {
         font-weight: bold;
+        color: blue;
         margin-bottom: 5px;
     }
 
     img {
         margin-top: 20px;
-        max-width: 150px;
+        max-width: 100px;
     }
 
     .contact {
@@ -73,10 +74,27 @@
         font-size: 18px;
     }
 
-    .contact a {
-        color: blue;
+    .contact a:link {
+        color: green;
         text-decoration: none;
-        font-weight: bold;
+    }
+
+    .contact a:visited {
+        color: red;
+    }
+
+    .contact a:active {
+        color: blue;
+    }
+
+    .links {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .links a {
+        margin: 0 5px;
+        text-decoration: none;
     }
 </style>
 </head>
@@ -113,10 +131,17 @@
         </table>
     </div>
 
-    <img src="./img.png" alt="Menu Icon" style="position: absolute;margin: 0; margin-left: 200px ;margin-top: -130px;">
+    <img src="Restaurant.jpg" alt="Restaurant Logo">
     
     <p class="contact">
-        For further enquiries and reservations <a href="mailto:contact@khaopiyo.com">Contact Us</a>.
+        For further enquiries and reservations <a href="mailto:abc@xyz.com">Contact Us</a>.
     </p>
+
+    <div class="links">
+        <a href="one.html">1</a> |
+        <a href="two.html">2</a> |
+        <a href="three.html">3</a> |
+        <a href="four.html">4</a>
+    </div>
 </body>
 </html>
